@@ -17,4 +17,12 @@ describe("reverse_numerals") do
   it("returns a number with multiple 4s when given the corresponding numerals") do
   	expect(reverse_numerals("MCDXLIV")).to(eq(1444))
   end
+
+  it("returns a number with a 9 when given the corresponding numerals") do
+  	expect(reverse_numerals("XC")).to(eq(90))
+  end
+
+  it("returns a number with multiple 9s when given the corresponding numerals") do
+  	expect(reverse_numerals("CMLXXIX")).to(eq(979))
+  end
 end
