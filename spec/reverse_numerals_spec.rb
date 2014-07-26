@@ -25,4 +25,8 @@ describe("reverse_numerals") do
   it("returns a number with multiple 9s when given the corresponding numerals") do
   	expect(reverse_numerals("CMLXXIX")).to(eq(979))
   end
+
+  it("returns a large number with a four and nine when given the corresponding numerals") do
+  	expect(reverse_numerals("CDLIX")).to(eq(459))
+  end
 end

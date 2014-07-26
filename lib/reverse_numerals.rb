@@ -24,7 +24,6 @@ def reverse_numerals(letter)
   results
 end
 
-reverse_numerals("MCDXLIV")
 
 
 
