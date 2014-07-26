@@ -18,10 +18,10 @@ def reverse_numerals(letter)
     end
   end
  
-results
+puts results
 end
 
-reverse_numerals("CD")
+reverse_numerals("MCDXLIV")
 
 
 

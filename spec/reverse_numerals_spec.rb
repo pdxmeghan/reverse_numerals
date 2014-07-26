@@ -13,4 +13,8 @@ describe("reverse_numerals") do
   it("returns a number with a 4 when given the corresponding numerals") do
     expect(reverse_numerals("CD")).to(eq(400))
   end
+
+  it("returns a number with multiple 4s when given the corresponding numerals") do
+  	expect(reverse_numerals("MCDXLIV")).to(eq(1444))
+  end
 end
